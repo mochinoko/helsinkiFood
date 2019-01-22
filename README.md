@@ -23,5 +23,5 @@
 
 ## Buid with  
 
-* Rect  
+* React  
 * Node.js
