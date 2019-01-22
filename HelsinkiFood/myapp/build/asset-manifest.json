@@ -1,0 +1,14 @@
+{
+  "main.css": "./static/css/main.0abfa1e4.chunk.css",
+  "main.js": "./static/js/main.9765010d.chunk.js",
+  "main.js.map": "./static/js/main.9765010d.chunk.js.map",
+  "static/js/1.76f909ad.chunk.js": "./static/js/1.76f909ad.chunk.js",
+  "static/js/1.76f909ad.chunk.js.map": "./static/js/1.76f909ad.chunk.js.map",
+  "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
+  "runtime~main.js.map": "./static/js/runtime~main.4a686d48.js.map",
+  "static/media/helsinki.jpg": "./static/media/helsinki.01a9769a.jpg",
+  "static/css/main.0abfa1e4.chunk.css.map": "./static/css/main.0abfa1e4.chunk.css.map",
+  "index.html": "./index.html",
+  "precache-manifest.5f7808ddad5104c3e7551a3d807c2385.js": "./precache-manifest.5f7808ddad5104c3e7551a3d807c2385.js",
+  "service-worker.js": "./service-worker.js"
+}
