@@ -1,24 +1,24 @@
-import React, { Component } from 'react';
-import './Header.css';
-import Header from './Header';
-import Footer from './Footer';
-import SimpleMap from './SimpleMap';
-import MenuButtons from './MenuButtons';
-import TopTexts from './TopTexts';
-import RestaurantInfo from './RestaurantInfo';
+import React, { Component } from "react";
+
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import SimpleMap from "./components/SimpleMap";
+import MenuButtons from "./components/MenuButtons";
+import TopTexts from "./components/TopTexts";
+import RestaurantInfo from "./components/RestaurantInfo";
 
 class App extends React.Component {
-
   render() {
-    return(
-    <div>
-      <Header />
-      <TopTexts />
-      <MenuButtons/>
-      <SimpleMap />
-      <Footer />
-    </div>
-  );
+    return (
+      <div>
+        <Header />
+        <TopTexts />
+        <MenuButtons />
+        <RestaurantInfo />
+
+        <Footer />
+      </div>
+    );
   }
 }
 export default App;
