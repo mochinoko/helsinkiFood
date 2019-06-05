@@ -23,7 +23,7 @@ export default class EventMap extends Component {
   };
 
   render() {
-    const position = [60.25, 24.8];
+    const position = [60.2, 24.96];
     return (
       <div>
         <Map center={position} zoom={this.state.zoom}>
