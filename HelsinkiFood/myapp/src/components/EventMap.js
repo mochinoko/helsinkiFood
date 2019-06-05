@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Map, Marker, Popup, TileLayer } from "react-leaflet";
-/* import "../styles/eventMap.css"; */
+import "../styles/eventMap.css";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 delete L.Icon.Default.prototype._getIconUrl;
@@ -17,13 +17,13 @@ type State = {
   zoom: number
 };
 
-export default class EventMap extends Component<{}, State> {
+export default class EventMap extends Component {
   state = {
     zoom: 10
   };
 
   render() {
-    const position = [51.505, -0.09];
+    const position = [60.25, 24.8];
     return (
       <div>
         <Map center={position} zoom={this.state.zoom}>
