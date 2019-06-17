@@ -1,0 +1,12 @@
+.restaurantInfo-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.rest_cont {
+    padding: 50px;
+    margin: 10px;
+    display: inline;
+}

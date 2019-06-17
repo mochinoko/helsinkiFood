@@ -29,7 +29,7 @@ export default class Search extends React.Component {
           <Button
             as="input"
             type="submit"
-            value="Submit"
+            value="Search"
             onClick={this.onClick}
           />
         </ButtonToolbar>

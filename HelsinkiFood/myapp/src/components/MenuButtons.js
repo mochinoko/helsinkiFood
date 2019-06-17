@@ -56,7 +56,7 @@ export default class MenuButtons extends React.Component {
             Italian
           </Button>
           <Button className="handleResetButton" onClick={this.handleReset}>
-            Reset
+            Return
           </Button>
           {everyRestaurantData}
         </ButtonToolbar>
