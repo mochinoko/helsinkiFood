@@ -1,17 +1,11 @@
-.buttons {
+.buttons-container {
     padding: 10px;
-    color: #0B032D;
-
+    justify-content: center;
+    display: flex;
 }
 
 .menuButton,
 .handleResetButton {
     margin-right: 5px;
-    background-color: #C4C4C4;
-    border-radius: 10px;
-    height: 35px;
-    width: 90px;
-    font-size: 20px;
     text-align: center;
-    color: #0B032D;
 }

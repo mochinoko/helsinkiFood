@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import RestaurantData from "../data/restaurant";
 import RestaurantInfo from "./RestaurantInfo";
 import "../styles/MenuButton.css";
+import { Button, ButtonToolbar } from "react-bootstrap";
 
 let everyRestaurantData;
 const initialState = {
@@ -40,23 +41,25 @@ export default class MenuButtons extends React.Component {
 
   render() {
     return (
-      <div className="buttons">
-        <button className="menuButton" onClick={this.handleClick}>
-          Pizza
-        </button>
-        <button className="menuButton" onClick={this.handleClick}>
-          Sushi
-        </button>
-        <button className="menuButton" onClick={this.handleClick}>
-          Burger
-        </button>
-        <button className="menuButton" onClick={this.handleClick}>
-          Italian
-        </button>
-        <button className="handleResetButton" onClick={this.handleReset}>
-          Reset
-        </button>
-        {everyRestaurantData}
+      <div className="buttons-container">
+        <ButtonToolbar>
+          <Button className="menuButton" onClick={this.handleClick}>
+            Pizza
+          </Button>
+          <Button className="menuButton" onClick={this.handleClick}>
+            Sushi
+          </Button>
+          <Button className="menuButton" onClick={this.handleClick}>
+            Burger
+          </Button>
+          <Button className="menuButton" onClick={this.handleClick}>
+            Italian
+          </Button>
+          <Button className="handleResetButton" onClick={this.handleReset}>
+            Reset
+          </Button>
+          {everyRestaurantData}
+        </ButtonToolbar>
       </div>
     );
   }
